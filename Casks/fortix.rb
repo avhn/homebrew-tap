@@ -1,9 +1,9 @@
 # Install the arm64 app without removing machine-wide helper state on cask removal.
 cask "fortix" do
-  version "1.0.2"
-  sha256 "e1a400deffe5bd2ba473150880432bda459fc3201e04e6b3e986d4f96833986b"
+  version "1.0.3"
+  sha256 "3d8e8dcc30d87f86632cf487c566751c66832bf028298228adb7ffb78111c5e4"
 
-  url "https://github.com/avhn/fortix/releases/download/v1.0.2/fortix_1.0.2_darwin_arm64.dmg"
+  url "https://github.com/avhn/fortix/releases/download/v1.0.3/fortix_1.0.3_darwin_arm64.dmg"
   name "Fortix"
   desc "FortiGate SSL VPN profile manager with a CLI and desktop tray"
   homepage "https://github.com/avhn/fortix"
