@@ -2,28 +2,28 @@
 class Fortix < Formula
   desc "FortiGate SSL VPN profile manager with a CLI and desktop tray"
   homepage "https://github.com/avhn/fortix"
-  version "1.0.3"
+  version "1.0.4"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/avhn/fortix/releases/download/v1.0.3/fortix_1.0.3_darwin_arm64.tar.gz"
-      sha256 "24af14d7502446bbbd067bfe8b9a12399d479420935f6ebd2297f0bb6a3eccb3"
+      url "https://github.com/avhn/fortix/releases/download/v1.0.4/fortix_1.0.4_darwin_arm64.tar.gz"
+      sha256 "2774f113887caee3c3d9168a62c921cc12f2972f3deeab987ef44c7814881edf"
     end
     on_intel do
-      url "https://github.com/avhn/fortix/releases/download/v1.0.3/fortix_1.0.3_darwin_amd64.tar.gz"
-      sha256 "dd57959442ea17182251e8c8f53145fe5af322969e4b350005a258d7f5c9a916"
+      url "https://github.com/avhn/fortix/releases/download/v1.0.4/fortix_1.0.4_darwin_amd64.tar.gz"
+      sha256 "d333baf8899e597619b513089beb49470826257e89da08564621d55ae0c0ba97"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/avhn/fortix/releases/download/v1.0.3/fortix_1.0.3_linux_arm64.tar.gz"
-      sha256 "ebb36eaf8403de173d67da338b154dda83b4f1c2c2f3bda07c528274b62ef8be"
+      url "https://github.com/avhn/fortix/releases/download/v1.0.4/fortix_1.0.4_linux_arm64.tar.gz"
+      sha256 "bb9212b3ebd0b597233a9aac0fe75adb017bce9f0254e12dbc1035cae604f7e3"
     end
     on_intel do
-      url "https://github.com/avhn/fortix/releases/download/v1.0.3/fortix_1.0.3_linux_amd64.tar.gz"
-      sha256 "2d3198720c9760b007497d79abb9c4b98a4cef2f3d7a24ff8b8dca7318f2cb6a"
+      url "https://github.com/avhn/fortix/releases/download/v1.0.4/fortix_1.0.4_linux_amd64.tar.gz"
+      sha256 "f8bf505a57b3cea2a9d2c27d2c54c237b7a42539f41cb3d547fcec3272f3a2d0"
     end
   end
 
