@@ -5,23 +5,23 @@ class GitCredit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/avhn/git-credit/releases/download/v0.1.1/git-credit-aarch64-apple-darwin.tar.gz"
-      sha256 "627d7278b5c1a826fbdf9d0d7906c0ea1d1c3311228d1b495ecb52e240d502ef"
+      url "https://github.com/avhn/git-credit/releases/download/v0.2.0/git-credit-aarch64-apple-darwin.tar.gz"
+      sha256 "2f927356034e093e364fbb092b313b627df8a5a00207157573ed53ebc8ac0dd6"
     end
     on_intel do
-      url "https://github.com/avhn/git-credit/releases/download/v0.1.1/git-credit-x86_64-apple-darwin.tar.gz"
-      sha256 "68dbe4450ec380f6900d5e1d7de4a106828fecf859161d4a9983c6703f2d2380"
+      url "https://github.com/avhn/git-credit/releases/download/v0.2.0/git-credit-x86_64-apple-darwin.tar.gz"
+      sha256 "cc188ecb485e0599201a3e329f43ebb3a6a802ea1a28def7030b7c539b9b8daf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/avhn/git-credit/releases/download/v0.1.1/git-credit-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8df36336501a22de5c7928b82a2248de2a47f06bd05758a247e544ace9ff42ba"
+      url "https://github.com/avhn/git-credit/releases/download/v0.2.0/git-credit-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "92eba50aab10de9e0a3df45e2d6176d1856c4050ed7be7ef17dae3ddaafb0453"
     end
     on_intel do
-      url "https://github.com/avhn/git-credit/releases/download/v0.1.1/git-credit-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8f744e733b8fc38da10e066ef01e712c3206639cf358fe67a1ca4eef4be066e2"
+      url "https://github.com/avhn/git-credit/releases/download/v0.2.0/git-credit-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e7a63064ce69c113c380be0a0fe7d5fab26ed56937e21f78174a1088ffb49d9f"
     end
   end
 
