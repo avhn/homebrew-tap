@@ -1,7 +1,6 @@
 class GitCredit < Formula
   desc "Fair git authorship stats"
   homepage "https://github.com/avhn/git-credit"
-  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
